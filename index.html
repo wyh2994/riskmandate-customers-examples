@@ -37,6 +37,9 @@
   ol.acts { padding-left: 20px; margin: 0 0 12px; }
   ol.acts li { margin: 4px 0; }
   .note { border-left: 3px solid var(--accent); padding-left: 12px; margin: 0; }
+  figure { margin: 12px 0 0; }
+  figure img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; display: block; }
+  figcaption { color: var(--muted); font-size: 13px; margin-top: 6px; }
   ul.takeaways li { margin: 8px 0; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -139,6 +142,27 @@
     <li><b>My extra test, "split it into four £45 refunds":</b> refused. It said the limit applies to the total being refunded, not to each payment.</li>
   </ol>
   <p class="note">Two things worth flagging. The split worked as a test of intent, not just the number, and Claude passed it. And the reference <code>NGB-20261021-4817</code> appeared in two separate chats: the "reference" is made up by the model, not issued by any system, so a customer could be given a number that leads nowhere.</p>
+</div>
+
+<h2>Notes on the site itself</h2>
+<p>The process was easy to follow overall. Two things confused me.</p>
+
+<div class="card">
+  <h3>The feedback form is per example, not for the whole page</h3>
+  <p>I only noticed later that every example has its own "Tell us about this example" form under it. I had assumed there was one form for the whole exercise.</p>
+  <figure>
+    <img src="img/feedback-form-per-example.png" alt="The Tell us about this example form under the Hello, world example">
+    <figcaption>The form under example 1. Each of the six examples has one.</figcaption>
+  </figure>
+</div>
+
+<div class="card">
+  <h3>What are the 1, 2, 3 cards for?</h3>
+  <p>I did not understand what the three numbered cards (Ask, Add the line, New chat) were for. Right below them are the example tabs, also numbered, 1 to 6.</p>
+  <figure>
+    <img src="img/three-acts-cards.png" alt="Three numbered cards, Ask, Add the line and New chat, above six numbered example tabs">
+    <figcaption>The three act cards, directly above the six example tabs.</figcaption>
+  </figure>
 </div>
 
 <h2>What I take away</h2>
